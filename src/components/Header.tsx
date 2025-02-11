@@ -33,7 +33,7 @@ const Header: React.FC = () => {
               <a href="login.html" className="btn btn-outline-light">
                 Sign in
               </a>
-              <a href="booking.html" className="btn btn-primary ms-3">
+              <a href="/booking" className="btn btn-primary ms-3">
                 Booking
               </a>
             </div>
@@ -124,7 +124,7 @@ const Header: React.FC = () => {
                       <a href="javascript:;">Pages</a>
                       <ul>
                         <li>
-                          <a href="booking.html">
+                          <a href="/booking">
                             <span>Booking</span>
                           </a>
                         </li>

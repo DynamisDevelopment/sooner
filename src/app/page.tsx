@@ -89,7 +89,7 @@ const Home: React.FC = () => (
                     Need a special repair service? we are happy to fulfil every
                     request in order to exceed your expe
                   </p>
-                  <a href="booking.html" className="btn btn-light">
+                  <a href="/booking" className="btn btn-light">
                     BOOK AN APPOINTMENT
                   </a>
                 </div>
