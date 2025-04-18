@@ -13,7 +13,7 @@ const Booking = () => {
             <nav aria-label="breadcrumb" className="breadcrumb-row">
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <a href="index.html">
+                  <a href="/">
                     <i className="las la-home"></i>Home
                   </a>
                 </li>

@@ -1,5 +1,5 @@
 @import url('./vendor/icons/line-awesome/css/line-awesome.min.css');
-@import url('./vendor/icons/font-awesome/css/font-awesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
 @import url('./vendor/icons/flaticon/flaticon.css');
 @import url('./vendor/icons/themify/themify-icons.css');
 
@@ -14857,7 +14857,6 @@ input:-internal-autofill-selected {
   transform: translateX(-50%);
 }
 .ttr-slider.style-2 .slider-content .title {
-  font-size: 110px;
   line-height: 110px;
   text-transform: uppercase;
   margin-bottom: 60px;
@@ -14865,7 +14864,6 @@ input:-internal-autofill-selected {
   animation: move2 5s infinite alternate;
 }
 .ttr-slider.style-2 .slider-content .sub-title {
-  font-size: 36px;
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 25px;
@@ -14920,7 +14918,6 @@ input:-internal-autofill-selected {
     width: 75%;
   }
   .ttr-slider.style-2 .slider-content .title {
-    font-size: 80px;
     line-height: 80px;
     margin-bottom: 50px;
   }
@@ -14931,7 +14928,6 @@ input:-internal-autofill-selected {
 }
 @media only screen and (max-width: 1199px) {
   .ttr-slider.style-2 .slider-content .title {
-    font-size: 62px;
     line-height: 62px;
     margin-bottom: 30px;
   }
@@ -14955,16 +14951,13 @@ input:-internal-autofill-selected {
   .ttr-slider.style-2 .car-wheel {
     width: 90%;
   }
-  .ttr-slider.style-2 .slider-content .title {
-    font-size: 52px;
-  }
+
 }
 @media only screen and (max-width: 575px) {
   .ttr-slider.style-2 .slider-content {
     bottom: 60px;
   }
   .ttr-slider.style-2 .slider-content .title {
-    font-size: 42px;
     line-height: 42px;
   }
   .ttr-slider.style-2 .slider-content .sub-title {
@@ -20572,4 +20565,25 @@ ul[class*='list-'].fs18 {
   border-bottom: 0;
   padding-bottom: 0;
   margin-bottom: 20px;
+}
+
+.custom-pagination {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background: #fff;
+  border-color: #fff;
 }

@@ -7,10 +7,10 @@ const Header: React.FC = () => {
         <div className="menu-bar clearfix ">
           <div className="container clearfix">
             <div className="menu-logo">
-              <a href="index.html" className="main-logo">
+              <a href="/" className="main-logo">
                 <img src="images/logo-white.png" alt="" />
               </a>
-              <a href="index.html" className="sticky-logo">
+              <a href="/" className="sticky-logo">
                 <img src="images/logo.png" alt="" />
               </a>
             </div>
@@ -43,7 +43,7 @@ const Header: React.FC = () => {
               id="menuDropdown"
             >
               <div className="menu-logo">
-                <a href="index.html">
+                <a href="/">
                   <img src="images/logo-white.png" alt="" />
                 </a>
               </div>
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
                   </a>
                   <ul className="sub-menu">
                     <li>
-                      <a href="index.html">
+                      <a href="/">
                         <span>Home 1</span>{' '}
                       </a>
                     </li>
