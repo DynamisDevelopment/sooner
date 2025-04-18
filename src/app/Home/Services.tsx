@@ -32,10 +32,10 @@ const services = [
       'Dead battery? We offer mobile testing, replacement, and installation on the spot.',
   },
   {
-    icon: 'flaticon-paint',
-    title: 'CAR PAINTING',
+    icon: 'flaticon-battery-2', // (reused battery icon is fine for jump starts)
+    title: 'BATTERY JUMP START',
     description:
-      'Minor scratch and paint touch-ups brought to your doorstep to keep your vehicle looking its best.',
+      'Stranded with a dead battery? Our mobile jump-start service gets you moving again, wherever you are.',
   },
   {
     icon: 'flaticon-repair-1',
