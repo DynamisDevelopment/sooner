@@ -79,10 +79,6 @@ const WhyChooseUs = () => {
                 </div>
               ))}
             </div>
-
-            <a href="about-1.html" className="btn btn-primary mt-4">
-              Learn More
-            </a>
           </div>
         </div>
       </div>
