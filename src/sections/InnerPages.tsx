@@ -8,7 +8,7 @@ const menuItems = [
   { label: 'Our Services', href: '/service-1.html', icon: 'las la-cog' },
   { label: 'Job & Career', href: '/job-career.html', icon: 'las la-user-plus' },
   { label: 'Pricing', href: '/pricing-plan.html', icon: 'las la-table' },
-  { label: 'FAQ', href: '/faq-1.html', icon: 'las la-quote-left' },
+  { label: 'FAQ', href: '/faq', icon: 'las la-quote-left' },
   { label: 'Contact Us', href: '/contact', icon: 'las la-user-tie' },
 ]
 

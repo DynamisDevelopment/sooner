@@ -1,7 +1,7 @@
 'use client'
 
 import { useParams } from 'next/navigation'
-import { servicesContent, servicesMenu, helpContent } from './content'
+import { servicesContent } from './content'
 import Sidebar from './Sidebar'
 import {
   Accordion,
@@ -9,7 +9,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
-import { AccordionHeader } from '@radix-ui/react-accordion'
 
 const ServicePage = () => {
   const { name } = useParams()
@@ -86,6 +85,7 @@ const ServicePage = () => {
                   className="ttr-accordion style1"
                   defaultValue={[]}
                 >
+                  {/* @ts-ignore */}
                   {service.faq.map((item, idx) => (
                     <AccordionItem
                       key={idx}
