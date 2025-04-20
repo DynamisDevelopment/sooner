@@ -13,7 +13,7 @@ const solutionsLinks = [
   { label: 'Brake Repair', href: '/service-brake-repair.html' },
   { label: 'Meet Our Team', href: '/team.html' },
   { label: 'Air Conditioning Repair', href: '/service-air-conditioning.html' },
-  { label: 'Contact Us', href: '/contact-1.html' },
+  { label: 'Contact Us', href: '/contact' },
   {
     label: 'Tire & Wheel Services',
     href: '/service-tire-and-wheel-services.html',
@@ -25,7 +25,7 @@ const footerLinks = [
   { label: 'About', href: '/about-1.html' },
   { label: 'FAQs', href: '/faq-1.html' },
   { label: 'Services', href: '/service-1.html' },
-  { label: 'Contact', href: '/contact-1.html' },
+  { label: 'Contact', href: '/contact' },
 ]
 
 const Footer: React.FC = () => {
