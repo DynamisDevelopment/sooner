@@ -30,11 +30,11 @@ const Header: React.FC = () => {
             </button>
 
             <div className="secondary-menu">
-              <a href="login.html" className="btn btn-outline-light">
-                Sign in
+              <a href="/contact" className="btn btn-outline-light">
+                Contact
               </a>
               <a href="/booking" className="btn btn-primary ms-3">
-                Booking
+                Book an Appointment
               </a>
             </div>
 

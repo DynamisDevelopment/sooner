@@ -1,27 +1,17 @@
+import InnerPagesMenu from '@/sections/InnerPages'
+
 const Booking = () => {
   return (
     <div className="page-content bg-white">
       <div
         className="page-banner ovbl-dark"
-        style={{ backgroundImage: 'url(images/banner/bnr4.jp' }}
+        style={{ backgroundImage: 'url(images/banner/engine.jpeg' }}
       >
         <div className="container">
           <div className="page-banner-entry text-center">
             <h1>
               <span>Booking</span>
             </h1>
-            <nav aria-label="breadcrumb" className="breadcrumb-row">
-              <ul className="breadcrumb">
-                <li className="breadcrumb-item">
-                  <a href="/">
-                    <i className="las la-home"></i>Home
-                  </a>
-                </li>
-                <li className="breadcrumb-item active" aria-current="page">
-                  Booking
-                </li>
-              </ul>
-            </nav>
           </div>
         </div>
       </div>
@@ -256,50 +246,7 @@ const Booking = () => {
                 </div>
               </form>
             </div>
-            <div className="col-lg-4 col-md-5 mb-30">
-              <aside className="sticky-top">
-                <div className="widget">
-                  <h5 className="widget-title">Our Inner Pages</h5>
-                  <ul className="service-menu style-1">
-                    <li>
-                      <a href="about-1.html">
-                        About Us <i className="las la-question-circle"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="service-1.html">
-                        Our Services <i className="las la-cog"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="job-career.html">
-                        Job & Career<i className="las la-user-plus"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="pricing-plan.html">
-                        Pricing<i className="las la-table"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="team.html">
-                        Our Team<i className="las la-user-tie"></i>
-                      </a>
-                    </li>
-                    <li className="active">
-                      <a href="booking.html">
-                        Booking<i className="lab la-wpforms"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="faq-1.html">
-                        Faq<i className="las la-quote-left"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </aside>
-            </div>
+            <InnerPagesMenu />
           </div>
         </div>
       </section>

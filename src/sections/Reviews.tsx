@@ -31,7 +31,7 @@ const testimonials = [
   },
 ]
 
-const Review = () => {
+const Reviews = () => {
   return (
     <section
       className="section-area section-sp2 bg-gray ovbl-dark testimonial-area"
@@ -98,4 +98,4 @@ const Review = () => {
   )
 }
 
-export default Review
+export default Reviews

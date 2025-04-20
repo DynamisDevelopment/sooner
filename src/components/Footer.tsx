@@ -1,5 +1,6 @@
 'use client'
 
+import { address, phoneNumber } from '@/constats'
 import React from 'react'
 
 const solutionsLinks = [
@@ -50,7 +51,7 @@ const Footer: React.FC = () => {
                   </span>
                 </div>
                 <div className="icon-content">
-                  <p>519 East Tecumseh St, Tulsa, OK 74106</p>
+                  <p>{address}</p>
                 </div>
               </div>
             </div>
@@ -62,7 +63,7 @@ const Footer: React.FC = () => {
                   </span>
                 </div>
                 <div className="icon-content">
-                  <p>+1 (918)-961-6784</p>
+                  <p>{phoneNumber}</p>
                 </div>
               </div>
             </div>

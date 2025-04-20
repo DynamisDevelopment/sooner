@@ -1,5 +1,7 @@
 'use client'
 
+import { phoneNumber } from '@/constats'
+
 const AboutUs = () => {
   return (
     <section
@@ -38,7 +40,9 @@ const AboutUs = () => {
               </div>
               <div className="about-contact bg-primary text-white">
                 <h6 className="title-ext text-white">NEED HELP?</h6>
-                <h3 className="number mb-15 text-white">+22 123 456 7890</h3>
+                <h3 className="number mb-15 text-white whitespace-nowrap">
+                  {phoneNumber}
+                </h3>
                 <p className="mb-20">
                   Need fast, on-site repairs? Call us today or book an
                   appointment — we're ready to get you back on the road quickly

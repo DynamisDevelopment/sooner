@@ -1,3 +1,5 @@
+import { address, email, phoneNumber } from '@/constats'
+
 const Contact = () => {
   return (
     <div className="page-wraper">
@@ -32,7 +34,7 @@ const Contact = () => {
                   <h6 className="title">
                     <i className="ti-map-alt"></i>Location
                   </h6>
-                  <p>519 East Tecumseh St, Tulsa Ok, 74106</p>
+                  <p>{address}</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-6">
@@ -40,10 +42,8 @@ const Contact = () => {
                   <h6 className="title">
                     <i className="ti-id-badge"></i>Email & Phone
                   </h6>
-                  <a href="javascript:void(0);">
-                    soonemergencyroadsideservice@gmail.com
-                  </a>
-                  <p>+1 (918)-961-6784</p>
+                  <a href="javascript:void(0);">{email}</a>
+                  <p>{phoneNumber}</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-12">
