@@ -14951,7 +14951,6 @@ input:-internal-autofill-selected {
   .ttr-slider.style-2 .car-wheel {
     width: 90%;
   }
-
 }
 @media only screen and (max-width: 575px) {
   .ttr-slider.style-2 .slider-content {
@@ -16270,8 +16269,7 @@ button.back-to-top {
   display: block;
   color: #000;
   font-size: 20px;
-  font-family: 'Roboto Condensed';
-  font-weight: 500;
+  font-weight: bold;
   position: relative;
   padding: 8px 15px 7px 50px;
   margin-bottom: 10px;

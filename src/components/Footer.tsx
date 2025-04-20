@@ -1,6 +1,7 @@
 'use client'
 
-import { address, phoneNumber } from '@/constats'
+import { address, email, phoneNumber } from '@/constats'
+import Image from 'next/image'
 import React from 'react'
 
 const solutionsLinks = [
@@ -34,36 +35,62 @@ const Footer: React.FC = () => {
 
   return (
     <footer className="footer">
-      {/* Top Info Bar */}
-      <div className="footer-info bg-primary">
+      <div className="footer-info bg-primary py-4">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-4 mb-30">
-              <div className="footer-logo">
-                <img src="/images/logo2.png" alt="Sooners Mobile Mechanics" />
-              </div>
-            </div>
-            <div className="col-md-4 mb-30">
+            {/* Address */}
+            <div className="col-lg-4 col-md-6 mb-30">
               <div className="feature-container left footer-info-bx">
                 <div className="icon-lg">
                   <span className="icon-cell">
-                    <img src="/images/icon/contact/icon3.png" alt="Location" />
+                    <Image
+                      src="/images/icon/contact/icon3.png"
+                      alt="Location Icon"
+                      width={40}
+                      height={40}
+                    />
                   </span>
                 </div>
                 <div className="icon-content">
-                  <p>{address}</p>
+                  <p className="mb-0">{address}</p>
                 </div>
               </div>
             </div>
-            <div className="col-md-4 mb-30">
+
+            {/* Phone */}
+            <div className="col-lg-4 col-md-6 mb-30">
               <div className="feature-container left footer-info-bx">
                 <div className="icon-lg">
                   <span className="icon-cell">
-                    <img src="/images/icon/contact/icon1.png" alt="Phone" />
+                    <Image
+                      src="/images/icon/contact/icon1.png"
+                      alt="Phone Icon"
+                      width={40}
+                      height={40}
+                    />
                   </span>
                 </div>
                 <div className="icon-content">
-                  <p>{phoneNumber}</p>
+                  <p className="mb-0">{phoneNumber}</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Email */}
+            <div className="col-lg-4 col-md-6 mb-30">
+              <div className="feature-container left footer-info-bx">
+                <div className="icon-lg">
+                  <span className="icon-cell">
+                    <Image
+                      src="/images/icon/contact/icon2.png"
+                      alt="Email Icon"
+                      width={40}
+                      height={40}
+                    />
+                  </span>
+                </div>
+                <div className="icon-content">
+                  <p className="mb-0">{email}</p>
                 </div>
               </div>
             </div>
@@ -85,7 +112,7 @@ const Footer: React.FC = () => {
                 <div className="ft-content">
                   <i className="fa fa-phone"></i>
                   <span>Talk To Our Support</span>
-                  <h4>+1 (123) 456-7890</h4>
+                  <h4>{phoneNumber}</h4>
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 
 const menuItems = [
-  { label: 'About Us', href: '/about-1.html', icon: 'las la-question-circle' },
+  { label: 'About Us', href: '/about', icon: 'las la-question-circle' },
   { label: 'Our Services', href: '/service-1.html', icon: 'las la-cog' },
   { label: 'Job & Career', href: '/job-career.html', icon: 'las la-user-plus' },
   { label: 'Pricing', href: '/pricing-plan.html', icon: 'las la-table' },
