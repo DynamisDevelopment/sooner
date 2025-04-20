@@ -1,5 +1,7 @@
 'use client'
 
+import { phoneNumber } from '@/constats'
+
 const services = [
   'Oil Change',
   'Brake Repair',
@@ -20,8 +22,8 @@ const Schedule = () => {
             <div className="form-head text-white mb-md-30">
               <h3 className="title">Book a Service</h3>
               <h6 className="mb-0">
-                <span className="fw4 me-1">or call us directly:</span> +22 123
-                456 7890
+                <span className="fw4 me-1">or call us directly:</span>{' '}
+                {phoneNumber}
               </h6>
             </div>
           </div>

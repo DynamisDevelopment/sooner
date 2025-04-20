@@ -18079,10 +18079,7 @@ blockquote p {
   height: auto;
   width: 100%;
 }
-.menu-logo span {
-  font-size: 20px;
-  letter-spacing: 20px;
-}
+
 .menu-logo .sticky-logo {
   display: none;
 }
