@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import Link from 'next/link'
+import Logo from './Logo'
 
 const Header: React.FC = () => {
   return (
@@ -6,13 +8,8 @@ const Header: React.FC = () => {
       <div className="sticky-header navbar-expand-lg">
         <div className="menu-bar clearfix ">
           <div className="container clearfix">
-            <div className="menu-logo">
-              <a href="/" className="main-logo">
-                <img src="images/logo-white.png" alt="" />
-              </a>
-              <a href="/" className="sticky-logo">
-                <img src="images/logo.png" alt="" />
-              </a>
+            <div className="float-left py-2">
+              <Logo />
             </div>
 
             <button
@@ -44,7 +41,12 @@ const Header: React.FC = () => {
             >
               <div className="menu-logo">
                 <a href="/">
-                  <img src="images/logo-white.png" alt="" />
+                  <Image
+                    src="/images/logo-plain.svg"
+                    alt="Logo"
+                    width={100}
+                    height={100}
+                  />
                 </a>
               </div>
               <ul className="nav navbar-nav">
