@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
                   </span>
                 </div>
                 <div className="icon-content">
-                  <p>+1 539-529-7029</p>
+                  <p>+1 (918)-961-6784</p>
                 </div>
               </div>
             </div>
