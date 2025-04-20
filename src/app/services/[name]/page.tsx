@@ -92,7 +92,7 @@ const ServicePage = () => {
                       value={`item-${idx}`}
                       className="card mb-2"
                     >
-                      <AccordionTrigger className="bg-red-500 text-white px-4 text-2xl">
+                      <AccordionTrigger className="bg-red-500 text-white px-4 text-sm md:text-md lg:text-2xl">
                         <div className="flex items-center gap-2">
                           <i className="fa fa-question-circle"></i>
                           <span className="font-semibold">{item.question}</span>

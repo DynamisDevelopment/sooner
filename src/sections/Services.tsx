@@ -1,5 +1,4 @@
 'use client'
-
 const services = [
   {
     icon: 'flaticon-fuel-1',
@@ -32,10 +31,10 @@ const services = [
       'Dead battery? We offer mobile testing, replacement, and installation on the spot.',
   },
   {
-    icon: 'flaticon-battery-2', // (reused battery icon is fine for jump starts)
-    title: 'BATTERY JUMP START',
+    icon: 'flaticon-fuel-2',
+    title: 'EMERGENCY FUEL DELIVERY',
     description:
-      'Stranded with a dead battery? Our mobile jump-start service gets you moving again, wherever you are.',
+      'Ran out of gas? We provide quick, on-location fuel delivery to get you safely back on the road.',
   },
   {
     icon: 'flaticon-repair-1',

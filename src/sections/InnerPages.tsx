@@ -5,7 +5,11 @@ import Link from 'next/link'
 
 const menuItems = [
   { label: 'About Us', href: '/about', icon: 'las la-question-circle' },
-  { label: 'Our Services', href: '/service-1.html', icon: 'las la-cog' },
+  {
+    label: 'Our Services',
+    href: '/services/engine-diagnostics',
+    icon: 'las la-cog',
+  },
   { label: 'Job & Career', href: '/job-career.html', icon: 'las la-user-plus' },
   { label: 'Pricing', href: '/pricing-plan.html', icon: 'las la-table' },
   { label: 'FAQ', href: '/faq', icon: 'las la-quote-left' },
